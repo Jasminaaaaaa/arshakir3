@@ -1,0 +1,138 @@
+body {
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+}
+
+.nav__text {
+    color: #B5B5B5 !important;
+}
+
+.nav__text:hover {
+    color: white !important;
+    text-shadow: 0px 0px 20px white;
+}
+
+.header__btn {
+    transition: .2s linear;
+}
+
+.header__btn:hover {
+    color: white !important;
+}
+
+.reasons__title {
+    width: 531px;
+}
+
+.reasons__text {
+    width: 468px;
+}
+
+.reasons-icon {
+    background: #361C5D;
+    padding: 20px 50px 20px 50px;
+}
+
+.choice__card {
+    transition: .2s linear;
+}
+
+.choice__card:hover {
+    cursor: pointer;
+    border: 2px ridge white !important;
+    transition: .2s linear;
+    animation: motivation 1s infinite;
+}
+
+@keyframes ishon {
+    0% {
+        transform: perspective(400px) rotateY(0deg);
+    }
+
+    50% {
+        transform: perspective(400px) translateZ(150px) rotateY(180deg);
+    }
+
+    100% {
+        transform: perspective(400px) rotateY(0deg);
+    }
+}
+
+@keyframes motivation {
+    0% {
+        box-shadow: 0px 0px 0px none;
+    }
+
+    50% {
+        box-shadow: 0px 0px 20px aqua;
+    }
+
+    100% {
+        box-shadow: 0px 0px 0px none;
+    }
+}
+
+.choice__icon {
+    animation: ishon 3s infinite;
+}
+
+.traffic__btn{
+    width: 155px;
+    height: 48px;
+    background: #F2994A !important;
+}
+
+.save__text{
+    width: 414px;
+}
+
+
+.save__accordion{
+    border: 1px ridge white !important;
+}
+
+.save__accordion-block{
+    border: 1px ridge #F2994A !important;
+}
+
+.save__project-title{
+    width: 770px;
+}
+
+.accordion-button::after{
+    color: black !important;
+    background: white;
+    border-radius: 50%;
+}
+
+.getDown__content{
+    width: 100%;
+    background: rgba(60, 62, 125, 0.19);
+    backdrop-filter: blur(67px);
+    border-radius: 5px;
+}
+
+.content__inp{
+    width: 400px;
+    height: 60px;
+}
+
+
+.content__btn{
+    width: 100px;
+    height: 60px;
+    background: rgb(141, 255, 240);
+}   
+
+.content__btn:hover{
+    background: none;
+    color: #F2994A;
+}
+
+.arshakir{
+    color: #F2994A;
+    font-size: 20px; 
+}
+
+.link__style{
+    list-style: none;
+}
